@@ -1,0 +1,43 @@
+Start testing: Nov 05 17:26 -05
+----------------------------------------------------------
+1/1 Testing: validation_test
+1/1 Test: validation_test
+Command: "/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests/validation_test"
+Directory: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests
+"validation_test" start time: Nov 05 17:26 -05
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from SimpleTest
+[ RUN      ] SimpleTest.basicTest
+[       OK ] SimpleTest.basicTest (0 ms)
+[----------] 1 test from SimpleTest (0 ms total)
+
+[----------] 1 test from CommentTest
+[ RUN      ] CommentTest.hasComments
+[       OK ] CommentTest.hasComments (0 ms)
+[----------] 1 test from CommentTest (0 ms total)
+
+[----------] 1 test from ErrorTest
+[ RUN      ] ErrorTest.basicTest
+[       OK ] ErrorTest.basicTest (0 ms)
+[----------] 1 test from ErrorTest (0 ms total)
+
+[----------] 1 test from MyTest
+[ RUN      ] MyTest.basicTest
+[       OK ] MyTest.basicTest (0 ms)
+[----------] 1 test from MyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 4 test suites ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"validation_test" end time: Nov 05 17:26 -05
+"validation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 05 17:26 -05

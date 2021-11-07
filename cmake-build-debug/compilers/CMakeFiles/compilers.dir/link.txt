@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompilers.a  
+/usr/bin/ranlib libcompilers.a

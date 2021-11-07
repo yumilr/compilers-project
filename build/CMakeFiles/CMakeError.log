@@ -1,0 +1,90 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d21b/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d21b.dir/build.make CMakeFiles/cmTC_5d21b.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d21b.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_5d21b.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_5d21b.dir/build.make:78: CMakeFiles/cmTC_5d21b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_5d21b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_872bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_872bd.dir/build.make CMakeFiles/cmTC_872bd.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_872bd.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -o CMakeFiles/cmTC_872bd.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+make[1]: *** [CMakeFiles/cmTC_872bd.dir/build.make:78: CMakeFiles/cmTC_872bd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_872bd/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbe1e/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbe1e.dir/build.make CMakeFiles/cmTC_fbe1e.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbe1e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_fbe1e.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+make[1]: *** [CMakeFiles/cmTC_fbe1e.dir/build.make:78: CMakeFiles/cmTC_fbe1e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_fbe1e/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e329/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e329.dir/build.make CMakeFiles/cmTC_7e329.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e329.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7e329.dir/src.c.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e329
+/snap/cmake/955/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e329.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7e329.dir/src.c.o -o cmTC_7e329 
+/usr/bin/ld: CMakeFiles/cmTC_7e329.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7e329.dir/build.make:99: cmTC_7e329] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_7e329/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
