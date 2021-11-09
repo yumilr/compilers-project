@@ -54,10 +54,10 @@ RM = /snap/cmake/955/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download
+CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download
+CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/googlebenchmark-download.dir/clean
 CMakeFiles/googlebenchmark-download.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/googlebenchmark-download.dir/build.make CMakeFiles/googlebenchmark-download.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/googlebenchmark-download.dir/build.make CMakeFiles/googlebenchmark-download.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target googlebenchmark-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target googlebenchmark-download"
 .PHONY : CMakeFiles/googlebenchmark-download.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/googlebenchmark-download.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/googlebenchmark-download.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles 0
 .PHONY : CMakeFiles/googlebenchmark-download.dir/rule
 
 # Convenience name for target.

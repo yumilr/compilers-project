@@ -1,4 +1,4 @@
-# Install script for directory: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests
+# Install script for directory: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

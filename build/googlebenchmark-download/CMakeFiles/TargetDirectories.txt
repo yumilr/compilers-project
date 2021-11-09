@@ -1,3 +1,3 @@
-/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles/rebuild_cache.dir
-/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles/googlebenchmark-download.dir
-/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles/edit_cache.dir
+/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles/rebuild_cache.dir
+/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles/googlebenchmark-download.dir
+/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles/edit_cache.dir

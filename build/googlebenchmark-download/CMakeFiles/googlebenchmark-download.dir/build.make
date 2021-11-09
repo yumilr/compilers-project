@@ -53,10 +53,10 @@ RM = /snap/cmake/955/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download
+CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download
+CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download
 
 # Utility rule file for googlebenchmark-download.
 
@@ -76,53 +76,53 @@ CMakeFiles/googlebenchmark-download-complete: googlebenchmark-download-prefix/sr
 CMakeFiles/googlebenchmark-download-complete: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-build
 CMakeFiles/googlebenchmark-download-complete: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-install
 CMakeFiles/googlebenchmark-download-complete: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'googlebenchmark-download'"
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles
-	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles/googlebenchmark-download-complete
-	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'googlebenchmark-download'"
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles
+	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles/googlebenchmark-download-complete
+	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-done
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-build: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'googlebenchmark-download'"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'googlebenchmark-download'"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-build
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-configure: googlebenchmark-download-prefix/tmp/googlebenchmark-download-cfgcmd.txt
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-configure: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'googlebenchmark-download'"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'googlebenchmark-download'"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-configure
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-download: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-gitinfo.txt
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-download: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'googlebenchmark-download'"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && /snap/cmake/955/bin/cmake -P /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/tmp/googlebenchmark-download-gitclone.cmake
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'googlebenchmark-download'"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && /snap/cmake/955/bin/cmake -P /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/tmp/googlebenchmark-download-gitclone.cmake
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-download
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-install: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'googlebenchmark-download'"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'googlebenchmark-download'"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-install
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'googlebenchmark-download'"
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-src
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/tmp
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src
-	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp
-	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'googlebenchmark-download'"
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-src
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/tmp
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src
+	/snap/cmake/955/bin/cmake -E make_directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp
+	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-mkdir
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-patch: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'googlebenchmark-download'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'googlebenchmark-download'"
 	/snap/cmake/955/bin/cmake -E echo_append
-	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-patch
+	/snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-patch
 
 googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-test: googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'googlebenchmark-download'"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'googlebenchmark-download'"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E echo_append
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build && /snap/cmake/955/bin/cmake -E touch /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/googlebenchmark-download-prefix/src/googlebenchmark-download-stamp/googlebenchmark-download-test
 
 googlebenchmark-download: CMakeFiles/googlebenchmark-download
 googlebenchmark-download: CMakeFiles/googlebenchmark-download-complete
@@ -145,6 +145,6 @@ CMakeFiles/googlebenchmark-download.dir/clean:
 .PHONY : CMakeFiles/googlebenchmark-download.dir/clean
 
 CMakeFiles/googlebenchmark-download.dir/depend:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-download/CMakeFiles/googlebenchmark-download.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-download/CMakeFiles/googlebenchmark-download.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/googlebenchmark-download.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-src/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/googlemock/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/googlemock -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/googletest/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/googletest
+CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-src/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/googlemock/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/googlemock -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/googletest/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/googletest
 
 CXX_FLAGS = -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++14
 

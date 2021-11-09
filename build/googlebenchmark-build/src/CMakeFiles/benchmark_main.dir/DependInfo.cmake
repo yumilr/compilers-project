@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-src/src/benchmark_main.cc" "googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o" "gcc" "googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o.d"
+  "/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-src/src/benchmark_main.cc" "googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o" "gcc" "googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build/src/CMakeFiles/benchmark.dir/DependInfo.cmake"
+  "/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build/src/CMakeFiles/benchmark.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

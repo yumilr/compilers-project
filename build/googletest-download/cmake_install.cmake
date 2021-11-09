@@ -1,4 +1,4 @@
-# Install script for directory: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-download
+# Install script for directory: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-download
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-download/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-download/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

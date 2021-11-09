@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-src/include -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/include -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests/../compilers -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/googletest/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googletest-src/googletest
+CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-src/include -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/include -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests/../compilers -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/googletest/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googletest-src/googletest
 
 CXX_FLAGS = -pthread -std=gnu++14
 

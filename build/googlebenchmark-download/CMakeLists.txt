@@ -5,8 +5,8 @@ project(googlebenchmark-download NONE)
 include(ExternalProject)
 ExternalProject_Add(googlebenchmark-download
                     GIT_REPOSITORY;https://github.com/google/benchmark.git;GIT_TAG;master;UPDATE_DISCONNECTED 1
-                    SOURCE_DIR          "/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-src"
-                    BINARY_DIR          "/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/googlebenchmark-build"
+                    SOURCE_DIR          "/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-src"
+                    BINARY_DIR          "/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/googlebenchmark-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -53,10 +53,10 @@ RM = /snap/cmake/955/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2
+CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build
+CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/validation_test.dir/depend.make
@@ -70,36 +70,36 @@ include tests/CMakeFiles/validation_test.dir/progress.make
 include tests/CMakeFiles/validation_test.dir/flags.make
 
 ../compilers/scanner.cpp: ../compilers/scanner.l
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[FLEX][ScannerTarget] Building scanner with flex 2.6.4"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests && /usr/bin/flex -o/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/compilers/scanner.cpp /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/compilers/scanner.l
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[FLEX][ScannerTarget] Building scanner with flex 2.6.4"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests && /usr/bin/flex -o/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/compilers/scanner.cpp /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/compilers/scanner.l
 
 tests/CMakeFiles/validation_test.dir/validation_test.cpp.o: tests/CMakeFiles/validation_test.dir/flags.make
 tests/CMakeFiles/validation_test.dir/validation_test.cpp.o: ../tests/validation_test.cpp
 tests/CMakeFiles/validation_test.dir/validation_test.cpp.o: tests/CMakeFiles/validation_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/validation_test.dir/validation_test.cpp.o"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/validation_test.dir/validation_test.cpp.o -MF CMakeFiles/validation_test.dir/validation_test.cpp.o.d -o CMakeFiles/validation_test.dir/validation_test.cpp.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests/validation_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/validation_test.dir/validation_test.cpp.o"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/validation_test.dir/validation_test.cpp.o -MF CMakeFiles/validation_test.dir/validation_test.cpp.o.d -o CMakeFiles/validation_test.dir/validation_test.cpp.o -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests/validation_test.cpp
 
 tests/CMakeFiles/validation_test.dir/validation_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/validation_test.dir/validation_test.cpp.i"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests/validation_test.cpp > CMakeFiles/validation_test.dir/validation_test.cpp.i
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests/validation_test.cpp > CMakeFiles/validation_test.dir/validation_test.cpp.i
 
 tests/CMakeFiles/validation_test.dir/validation_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/validation_test.dir/validation_test.cpp.s"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests/validation_test.cpp -o CMakeFiles/validation_test.dir/validation_test.cpp.s
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests/validation_test.cpp -o CMakeFiles/validation_test.dir/validation_test.cpp.s
 
 tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o: tests/CMakeFiles/validation_test.dir/flags.make
 tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o: ../compilers/scanner.cpp
 tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o: tests/CMakeFiles/validation_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o -MF CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o.d -o CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/compilers/scanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o -MF CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o.d -o CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/compilers/scanner.cpp
 
 tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.i"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/compilers/scanner.cpp > CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.i
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/compilers/scanner.cpp > CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.i
 
 tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.s"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/compilers/scanner.cpp -o CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.s
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/compilers/scanner.cpp -o CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.s
 
 # Object files for target validation_test
 validation_test_OBJECTS = \
@@ -116,18 +116,18 @@ tests/validation_test: compilers/libcompilers.a
 tests/validation_test: /usr/lib/x86_64-linux-gnu/libfl.so
 tests/validation_test: lib/libgtest.a
 tests/validation_test: tests/CMakeFiles/validation_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable validation_test"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/validation_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable validation_test"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/validation_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/validation_test.dir/build: tests/validation_test
 .PHONY : tests/CMakeFiles/validation_test.dir/build
 
 tests/CMakeFiles/validation_test.dir/clean:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/validation_test.dir/cmake_clean.cmake
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/validation_test.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/validation_test.dir/clean
 
 tests/CMakeFiles/validation_test.dir/depend: ../compilers/scanner.cpp
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2 /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/tests /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests/CMakeFiles/validation_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/compilers-project /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/tests /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests/CMakeFiles/validation_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/validation_test.dir/depend
 

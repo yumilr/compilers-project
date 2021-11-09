@@ -57,10 +57,10 @@ RM = /snap/cmake/955/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2
+CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build
+CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/tests//CMakeFiles/progress.marks
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build/CMakeFiles 0
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/CMakeFiles /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests//CMakeFiles/progress.marks
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/validation_test.dir/rule:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/validation_test.dir/rule
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/validation_test.dir/rule
 .PHONY : tests/CMakeFiles/validation_test.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ validation_test: tests/CMakeFiles/validation_test.dir/rule
 
 # fast build rule for target.
 validation_test/fast:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/build
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/build
 .PHONY : validation_test/fast
 
 __/compilers/scanner.o: __/compilers/scanner.cpp.o
@@ -190,7 +190,7 @@ __/compilers/scanner.o: __/compilers/scanner.cpp.o
 
 # target to build an object file
 __/compilers/scanner.cpp.o:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.o
 .PHONY : __/compilers/scanner.cpp.o
 
 __/compilers/scanner.i: __/compilers/scanner.cpp.i
@@ -198,7 +198,7 @@ __/compilers/scanner.i: __/compilers/scanner.cpp.i
 
 # target to preprocess a source file
 __/compilers/scanner.cpp.i:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.i
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.i
 .PHONY : __/compilers/scanner.cpp.i
 
 __/compilers/scanner.s: __/compilers/scanner.cpp.s
@@ -206,7 +206,7 @@ __/compilers/scanner.s: __/compilers/scanner.cpp.s
 
 # target to generate assembly for a file
 __/compilers/scanner.cpp.s:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.s
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/__/compilers/scanner.cpp.s
 .PHONY : __/compilers/scanner.cpp.s
 
 validation_test.o: validation_test.cpp.o
@@ -214,7 +214,7 @@ validation_test.o: validation_test.cpp.o
 
 # target to build an object file
 validation_test.cpp.o:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/validation_test.cpp.o
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/validation_test.cpp.o
 .PHONY : validation_test.cpp.o
 
 validation_test.i: validation_test.cpp.i
@@ -222,7 +222,7 @@ validation_test.i: validation_test.cpp.i
 
 # target to preprocess a source file
 validation_test.cpp.i:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/validation_test.cpp.i
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/validation_test.cpp.i
 .PHONY : validation_test.cpp.i
 
 validation_test.s: validation_test.cpp.s
@@ -230,7 +230,7 @@ validation_test.s: validation_test.cpp.s
 
 # target to generate assembly for a file
 validation_test.cpp.s:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/validation_test.cpp.s
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/validation_test.dir/build.make tests/CMakeFiles/validation_test.dir/validation_test.cpp.s
 .PHONY : validation_test.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
