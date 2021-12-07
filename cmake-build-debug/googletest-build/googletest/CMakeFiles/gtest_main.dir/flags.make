@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-src/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-src/googletest/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-src/googletest 
+CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-src/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-src/googletest/include -isystem /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-src/googletest 
 

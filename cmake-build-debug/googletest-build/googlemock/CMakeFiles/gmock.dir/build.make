@@ -63,10 +63,10 @@ RM = /home/jlr/IDES/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2
+CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include googletest-build/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -79,16 +79,16 @@ include googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: googletest-src/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
@@ -100,9 +100,9 @@ gmock_EXTERNAL_OBJECTS =
 lib/libgmockd.a: googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 lib/libgmockd.a: googletest-build/googlemock/CMakeFiles/gmock.dir/build.make
 lib/libgmockd.a: googletest-build/googlemock/CMakeFiles/gmock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libgmockd.a"
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libgmockd.a"
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googletest-build/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
@@ -110,10 +110,10 @@ googletest-build/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
 .PHONY : googletest-build/googlemock/CMakeFiles/gmock.dir/build
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : googletest-build/googlemock/CMakeFiles/gmock.dir/clean
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2 /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-src/googlemock /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/compilers-project /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-src/googlemock /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 

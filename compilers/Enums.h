@@ -1,8 +1,8 @@
 #pragma once
 
 enum Categoria { 
-    INT, RETURN, NO_TYPE, WHILE, IF, ELSE, MAIN, 
     ID = 255, NUM,
+    INT, RETURN, NO_TYPE, WHILE, IF, ELSE, MAIN, 
     ARIT_OP, MUL_OP, DIV_OP, REL_OP, ASSIGN, D_COM, COM,  
     PAR_BEGIN, PAR_END, COR_BEGIN, COR_END, BRA_BEGIN, BRA_END,
 

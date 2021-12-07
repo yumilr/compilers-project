@@ -1,10 +1,10 @@
-Start testing: Nov 09 02:38 -05
+Start testing: Nov 25 14:12 -05
 ----------------------------------------------------------
 1/1 Testing: validation_test
 1/1 Test: validation_test
 Command: "/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests/validation_test"
 Directory: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/build/tests
-"validation_test" start time: Nov 09 02:38 -05
+"validation_test" start time: Nov 25 14:12 -05
 Output:
 ----------------------------------------------------------
 [==========] Running 10 tests from 10 test suites.
@@ -54,10 +54,10 @@ Output:
 [       OK ] MyRecursive.basicTest (0 ms)
 [----------] 1 test from MyRecursive (0 ms total)
 
-[----------] 1 test from Recursive
-[ RUN      ] Recursive.basicTest
-[       OK ] Recursive.basicTest (0 ms)
-[----------] 1 test from Recursive (0 ms total)
+[----------] 1 test from MyConditional
+[ RUN      ] MyConditional.basicTest
+[       OK ] MyConditional.basicTest (0 ms)
+[----------] 1 test from MyConditional (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 10 tests from 10 test suites ran. (0 ms total)
@@ -66,8 +66,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"validation_test" end time: Nov 09 02:38 -05
+"validation_test" end time: Nov 25 14:12 -05
 "validation_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 09 02:38 -05
+End testing: Nov 25 14:12 -05

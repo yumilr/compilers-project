@@ -1,4 +1,4 @@
-/home/jlr/IDES/clion-2020.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2
+/home/jlr/IDES/clion-2020.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jlr/Desktop/CICLO6/Compiladores/compilers-project
 CMake Deprecation Warning at CMakeLists.txt:2 (CMAKE_POLICY):
   The OLD behavior for policy CMP0048 will be removed from a future version
   of CMake.
@@ -24,22 +24,13 @@ CMake Deprecation Warning at CMakeLists.txt:2 (CMAKE_POLICY):
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Downloading/updating googlebenchmark
+CMake Error: The current CMakeCache.txt directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-download/CMakeCache.txt is different than the directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-download where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The current CMakeCache.txt directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-download/CMakeCache.txt is different than the directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-download where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-download
-Scanning dependencies of target googlebenchmark-download
-[ 11%] Creating directories for 'googlebenchmark-download'
-[ 22%] Performing download step (git clone) for 'googlebenchmark-download'
-Cloning into 'googlebenchmark-src'...
-Switched to a new branch 'master'
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-[ 33%] No patch step for 'googlebenchmark-download'
-[ 44%] Skipping update step for 'googlebenchmark-download'
-[ 55%] No configure step for 'googlebenchmark-download'
-[ 66%] No build step for 'googlebenchmark-download'
-[ 77%] No install step for 'googlebenchmark-download'
-[ 88%] No test step for 'googlebenchmark-download'
-[100%] Completed 'googlebenchmark-download'
+[ 11%] Skipping update step for 'googlebenchmark-download'
+[ 22%] No configure step for 'googlebenchmark-download'
 [100%] Built target googlebenchmark-download
 -- Failed to find LLVM FileCheck
 -- Found Git: /usr/bin/git (found version "2.25.1") 
@@ -97,25 +88,16 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 -- Check if compiler accepts -pthread - yes
 -- Found Threads: TRUE  
 -- Downloading/updating googletest
+CMake Error: The current CMakeCache.txt directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-download/CMakeCache.txt is different than the directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-download where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The current CMakeCache.txt directory /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googletest-download/CMakeCache.txt is different than the directory /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-download where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googletest-download
-Scanning dependencies of target googletest-download
-[ 11%] Creating directories for 'googletest-download'
-[ 22%] Performing download step (git clone) for 'googletest-download'
-Cloning into 'googletest-src'...
-Already on 'master'
-Your branch is up to date with 'origin/master'.
-[ 33%] No patch step for 'googletest-download'
-[ 44%] Skipping update step for 'googletest-download'
-[ 55%] No configure step for 'googletest-download'
-[ 66%] No build step for 'googletest-download'
-[ 77%] No install step for 'googletest-download'
-[ 88%] No test step for 'googletest-download'
-[100%] Completed 'googletest-download'
+[ 11%] Skipping update step for 'googletest-download'
+[ 22%] No configure step for 'googletest-download'
 [100%] Built target googletest-download
 -- Found Python: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
 -- Found FLEX: /usr/bin/flex (found version "2.6.4") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug
+-- Build files have been written to: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug

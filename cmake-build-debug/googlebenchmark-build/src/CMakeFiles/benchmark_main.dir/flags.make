@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedanti
 
 CXX_DEFINES = -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK
 
-CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-src/include -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-src/src -I/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-src/src/../include 
+CXX_INCLUDES = -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-src/include -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-src/src -I/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-src/src/../include 
 

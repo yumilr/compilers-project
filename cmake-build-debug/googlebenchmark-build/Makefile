@@ -68,10 +68,10 @@ RM = /home/jlr/IDES/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2
+CMAKE_SOURCE_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -157,14 +157,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/googlebenchmark-build/CMakeFiles/progress.marks
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles 0
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/googlebenchmark-build/CMakeFiles/progress.marks
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/clean
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,17 +174,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/preinstall
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/preinstall
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googlebenchmark-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -211,6 +211,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

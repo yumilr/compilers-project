@@ -1,70 +1,70 @@
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
-Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_76c00/fast && /usr/bin/make  -f CMakeFiles/cmTC_76c00.dir/build.make CMakeFiles/cmTC_76c00.dir/build
-make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76c00.dir/src.cxx.o
-/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_76c00.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_dbc1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_dbc1b.dir/build.make CMakeFiles/cmTC_dbc1b.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbc1b.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_dbc1b.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-Wshorten-64-to-32'
 c++: error: unrecognized command line option '-Wshorten-64-to-32'
-make[1]: *** [CMakeFiles/cmTC_76c00.dir/build.make:86: CMakeFiles/cmTC_76c00.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:141: cmTC_76c00/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_dbc1b.dir/build.make:86: CMakeFiles/cmTC_dbc1b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_dbc1b/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
-Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2249f/fast && /usr/bin/make  -f CMakeFiles/cmTC_2249f.dir/build.make CMakeFiles/cmTC_2249f.dir/build
-make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2249f.dir/src.cxx.o
-/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_2249f.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_d3716/fast && /usr/bin/make  -f CMakeFiles/cmTC_d3716.dir/build.make CMakeFiles/cmTC_d3716.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3716.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_d3716.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-wd654'
 c++: error: unrecognized command line option '-wd654'
-make[1]: *** [CMakeFiles/cmTC_2249f.dir/build.make:86: CMakeFiles/cmTC_2249f.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:141: cmTC_2249f/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d3716.dir/build.make:86: CMakeFiles/cmTC_d3716.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_d3716/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
-Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_26cf0/fast && /usr/bin/make  -f CMakeFiles/cmTC_26cf0.dir/build.make CMakeFiles/cmTC_26cf0.dir/build
-make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_26cf0.dir/src.cxx.o
-/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_26cf0.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_4005b/fast && /usr/bin/make  -f CMakeFiles/cmTC_4005b.dir/build.make CMakeFiles/cmTC_4005b.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4005b.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_4005b.dir/src.cxx.o -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-Wthread-safety'
 c++: error: unrecognized command line option '-Wthread-safety'
-make[1]: *** [CMakeFiles/cmTC_26cf0.dir/build.make:86: CMakeFiles/cmTC_26cf0.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:141: cmTC_26cf0/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_4005b.dir/build.make:86: CMakeFiles/cmTC_4005b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_4005b/fast] Error 2
 
 
 Source file was:
 int main() { return 0; }
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_13347/fast && /usr/bin/make  -f CMakeFiles/cmTC_13347.dir/build.make CMakeFiles/cmTC_13347.dir/build
-make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13347.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_13347.dir/src.c.o   -c /home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_13347
-/home/jlr/IDES/clion-2020.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13347.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_13347.dir/src.c.o  -o cmTC_13347 
-/usr/bin/ld: CMakeFiles/cmTC_13347.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_6b1cd/fast && /usr/bin/make  -f CMakeFiles/cmTC_6b1cd.dir/build.make CMakeFiles/cmTC_6b1cd.dir/build
+make[1]: Entering directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b1cd.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6b1cd.dir/src.c.o   -c /home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6b1cd
+/home/jlr/IDES/clion-2020.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b1cd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_6b1cd.dir/src.c.o  -o cmTC_6b1cd 
+/usr/bin/ld: CMakeFiles/cmTC_6b1cd.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_13347.dir/build.make:107: cmTC_13347] Error 1
-make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/LABs/Lab2/cs3402-lab1-lab2/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:141: cmTC_13347/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6b1cd.dir/build.make:107: cmTC_6b1cd] Error 1
+make[1]: Leaving directory '/home/jlr/Desktop/CICLO6/Compiladores/compilers-project/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_6b1cd/fast] Error 2
 
 
 Source file was:
