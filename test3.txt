@@ -1,17 +1,18 @@
-sin_tipo a(entero a){
-entero a;
-entero b, c, m;
-entero n[4];
+entero hola(entero b){
+    entero bebe;
+    retorno b;
 }
 
-entero b(entero c){
-entero a;
-entero b, m;
-entero nm[4];
+/* HOLA comer hola */
 
-si (b = 5)
-    /*comentario owo*/
-    c = 45;
-
-retorno;
+entero main(){
+    entero b[5];
+    entero a;
+    hola();
+    si (a == 2){
+        a = 3;
+    }    
+    mientras (a != 1){
+        a = a +1;
+    }
 }

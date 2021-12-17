@@ -1,3 +1,9 @@
-entero b(entero c){
-si(n=8) entero m=4
+entero main(){
+    entero a;
+    entero c;
+    entero b;
+    a = 1;
+    si(a == 4){
+        a = 3;
+    }
 }
