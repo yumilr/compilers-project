@@ -1,0 +1,17 @@
+sin_tipo a(entero a){
+entero a;
+entero b, c, m;
+entero n[4];
+}
+
+entero b(entero c){
+entero a;
+entero b, m;
+entero nm[4];
+
+si (b = 5)
+    /*comentario owo*/
+    c = 45;
+
+retorno;
+}
