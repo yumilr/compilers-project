@@ -1,7 +1,7 @@
 # C en Español
 ## Proyecto Compiladores 
 
-Alumna: Julisa Lapa Romero
+Alumna: Julisa Lapa Romero  
 
 Building instructions:
 
