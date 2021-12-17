@@ -9,3 +9,7 @@ Building instructions:
 make
 ./ces test.txt
 ```
+for cleaning:
+```
+make clean
+```
