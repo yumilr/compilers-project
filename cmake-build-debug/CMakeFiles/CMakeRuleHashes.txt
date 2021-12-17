@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-fa6511e462554d687dd3bc5903a51743 ../compilers/scanner.cpp

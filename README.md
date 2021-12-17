@@ -1,11 +1,11 @@
-# compilers-project
+# C en Español
+## Proyecto Compiladores 
+
+Alumna: Julisa Lapa Romero
 
 Building instructions:
 
 ```
-mkdir build
-cd build
-cmake ..
-make -j
-ctest
+make
+./ces test.txt
 ```
