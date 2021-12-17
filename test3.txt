@@ -1,14 +1,21 @@
-entero hola(entero b){
-    entero bebe;
+entero m;
+
+entero fun(entero b, entero c[], entero b){
+    entero c[8];
     retorno b;
 }
 
-/* HOLA comer hola */
+entero fun_o(entero b){
+    entero c[8];
+    retorno b;
+}
+
+/* comentario owo */
 
 entero main(){
     entero b[5];
     entero a;
-    hola();
+    fun(a);
     si (a == 2){
         a = 3;
     }    

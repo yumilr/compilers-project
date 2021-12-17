@@ -1,6 +1,6 @@
 entero main(){
     entero a;
-    entero c;
+    entero c, d, o;
     entero b;
     a = 1;
     si(a == 4){

@@ -1,3 +1,22 @@
-entero main;
-/* test */
-entero main(sin_tipo){entero}
+entero tempp;
+
+sin_tipo factorial(entero x) {
+    entero fact;
+    fact = 1;
+    fact = fact * x;
+    x = x - 1;
+    mientras (x != 0) {
+        si(a>=b){
+            /*comentaísimo*/
+            m = 18+7;
+            p = 18+7;
+            retorno owo;
+
+        }
+        fact = fact * x;
+        x = x - 1;
+        retorno owo;
+    }
+
+    retorno fact;
+}

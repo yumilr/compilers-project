@@ -27,6 +27,7 @@ int_const	{digit}+
 entero   { yylval.op_val = new std::string(yytext); return ENTERO; }
 sin_tipo {yylval.op_val = new std::string(yytext); return SIN_TIPO;}
 retorno  {yylval.op_val = new std::string(yytext); return RETORNO;}
+main {yylval.op_val = new std::string(yytext); return MAIN;}
 mientras {yylval.op_val = new std::string(yytext); return MIENTRAS;}
 sino {yylval.op_val = new std::string(yytext); return SINO;}
 si {yylval.op_val = new std::string(yytext); return SI;}

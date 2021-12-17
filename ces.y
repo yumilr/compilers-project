@@ -1,11 +1,12 @@
-/* Mini Calculator */
-/* ces.y */  
 
 %{
 #include "heading.h"
 int yyerror(char *s);
-int error_symbol(string s, string symbol);
+int symbol_error(string s, string symbol);
 extern "C" int yylex();
+#include "semantic.h"
+
+SymbolTable symbolTable;
 %}
 
 %union{
@@ -21,6 +22,7 @@ extern "C" int yylex();
 %token <op_val> SIN_TIPO
 %token <op_val> RETORNO
 %token <op_val> MIENTRAS
+%token <op_val> MAIN
 %token <op_val> SINO
 %token <op_val> SI
 
@@ -51,6 +53,13 @@ extern "C" int yylex();
 %token <op_val> D_COM
 %token <op_val> COM
 
+%type <id_val> declaracion
+%type <id_val> var_declaracion
+%type <id_val> fun_declaracion
+%type <id_val> call
+%type <id_val> more
+%type <id_val> param
+
 %%
 
 programa: lista_declaracion 
@@ -62,26 +71,61 @@ lista_declaracion:
 	;
 
 declaracion: 
-	var_declaracion
-	| fun_declaracion
+	var_declaracion {$$ = $1;}
+	| fun_declaracion {$$ = $1;}
 	;
 
 var_declaracion:
 	ENTERO ID more {
 		extern int yylineno;
-		extern char *yytext;
-		cout<<"Declarando variable "<< yytext <<" de tipo entero en linea " << yylineno << ".\n";}
+		$$ = $2;
+
+		if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+
+		cout<<"Declarando variable \""<< *$2 <<"\" de tipo entero en linea " << yylineno << ".\n";}
 	| ENTERO ID COR_BEGIN NUM COR_END D_COM {
+		$$ = $2;
 		extern int yylineno;
-		extern char *yytext;
-		cout<<"Declarando arreglo "<< yytext <<" de tipo entero en linea " << yylineno << ".\n";}
+
+		if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+
+		cout<<"Declarando arreglo \""<< *$2 <<"\" de tipo entero en linea " << yylineno << ".\n";}
 ;
 
 fun_declaracion:
-	ENTERO ID PAR_BEGIN params PAR_END sent_compuesta {
+	ENTERO MAIN PAR_BEGIN params PAR_END sent_compuesta {cout<<"Función main tipo entero declarada correctamente.\n";}
+	| SIN_TIPO MAIN PAR_BEGIN params PAR_END sent_compuesta {cout<<"Función main  sin_tipo declarada correctamente.\n";}
+	| ENTERO ID PAR_BEGIN params PAR_END sent_compuesta {
+        $$ = $2;
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
 		cout<<"Función tipo entero declarada correctamente.\n";}
 	| SIN_TIPO ID PAR_BEGIN params PAR_END sent_compuesta{
-		extern int yylineno;
+		$$ = $2;
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
 		cout<<"Función sin_tipo declarada correctamente.\n";}
 ;
 
@@ -89,10 +133,10 @@ params:
     /*empty*/ {
 		extern int yylineno;
 		cout<<"Función sin parametros en linea " << yylineno << ".\n";}
-    | SIN_TIPO {
+    | SIN_TIPO { symbolTable.add_scope();
 		extern int yylineno;
 		cout<<"Función de parametros sin tipo en linea " << yylineno << ".\n";}
-	| lista_params {
+	| lista_params { symbolTable.add_scope();
 		extern int yylineno;
 		cout<<"Función con parametros en linea " << yylineno << ".\n";}
 ;
@@ -103,10 +147,42 @@ lista_params:
 ;
 
 param:
-	ENTERO ID COR_BEGIN COR_END
-	| SIN_TIPO COR_BEGIN COR_END
-    | ENTERO ID
-    | SIN_TIPO ID
+	ENTERO ID COR_BEGIN COR_END{
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = arreglo;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+    }
+	| SIN_TIPO ID COR_BEGIN COR_END{
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = arreglo;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+    }
+    | ENTERO ID {
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+    }
+    | SIN_TIPO ID {
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+    }
 ;
 
 sent_compuesta:
@@ -119,7 +195,18 @@ declaracion_local:
 ;
 
 more:
-    COM ID more
+    COM ID more {
+		extern int yylineno;
+		$$ = $2;
+        if (!symbolTable.search_symbol_local(*$2)) {
+            attr a;
+            a.id = var;
+            a.v = simple;
+            symbolTable.insert_symbol(*$2, a);
+        }
+        else symbol_error("Simbolo ya definido anteriormente.", *$2);
+		cout<<"Declarando variable \""<< *$2 <<"\" en linea " << yylineno << ".\n";
+	}
     | COR_BEGIN NUM COR_END more
     | D_COM
 ;
@@ -144,8 +231,8 @@ sentencia_expresion:
 ;
 
 sentencia_seleccion: 
-	SI PAR_BEGIN expresion PAR_END BRA_BEGIN sentencia BRA_END SINO BRA_BEGIN sentencia BRA_END 
-	| SI PAR_BEGIN expresion PAR_END BRA_BEGIN sentencia BRA_END
+	SI PAR_BEGIN expresion PAR_END BRA_BEGIN lista_sentencias BRA_END SINO BRA_BEGIN lista_sentencias BRA_END 
+	| SI PAR_BEGIN expresion PAR_END BRA_BEGIN lista_sentencias BRA_END
 ;
 
 sentencia_iteracion:
@@ -204,8 +291,9 @@ factor:   PAR_BEGIN expresion PAR_END {}
     ;
 
 call:   ID PAR_BEGIN args PAR_END {
+		$$ = $1;
 		extern int yylineno;
-		cout<<"Llamada a función procesada correctamente en linea "<< yylineno <<".\n";}
+		cout<<"Llamada a función \""<< *$1 <<"\" procesada correctamente en linea "<< yylineno <<".\n";}
     ;
 
 args:   
@@ -234,11 +322,11 @@ int yyerror(char *s)
 	return yyerror(string(s));
 }
 
-int error_symbol(string s, string symbol) {
+int symbol_error(string s, string symbol) {
     extern int yylineno;
     extern char *yytext;
     
-    cerr << "ERROR: " << s << " at symbol \"" << symbol;
-    cerr << "\" on line " << yylineno << endl;
+    cerr << "ERROR: " << s << " \"" << symbol;
+    cerr << "\" en linea " << yylineno << endl;
     exit(1);
 }
